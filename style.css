@@ -1,0 +1,31 @@
+main {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    background-color: teal;
+    border: 3px solid black;
+    padding: 5px;
+}
+
+body {
+    background-color: powderblue;
+}
+
+footer {
+    background-color: green;
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .article, .body1, .footer{
+        width: 100%;
+    }
+}
+
